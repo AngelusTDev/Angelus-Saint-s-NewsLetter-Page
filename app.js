@@ -44,12 +44,12 @@ app.post("/", function(req, res) {
 
   // Creating my options and posting my data
   var options = {
-    url: "https://us20.api.mailchimp.com/3.0/lists/632095289f",
+    // List URL
+    url: "http://listurl.com",
     method: "POST",
     // Authentication
     headers: {
       // Using a username and API Key.
-      "authorization": "andyt1 2c3c3d7c23663977af922bf32ed2670a-us20"
     },
     body: jsonData
   };
